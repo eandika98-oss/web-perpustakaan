@@ -1,0 +1,596 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f6fa;
+}
+
+/* ===========================
+LOGIN
+=========================== */
+
+.login-container{
+
+    width:100%;
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    padding:40px;
+}
+
+.login-title{
+
+    font-size:58px;
+    font-weight:800;
+    margin-bottom:50px;
+}
+
+.login-content{
+
+    width:1200px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo-box{
+
+    width:420px;
+    height:500px;
+
+    background:#d9d9d9;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:40px;
+}
+
+.login-box{
+
+    width:560px;
+    background:white;
+
+    border-radius:20px;
+    border:1px solid #cfcfcf;
+
+    overflow:hidden;
+}
+
+.login-header{
+
+    text-align:center;
+
+    padding:25px;
+
+    border-bottom:1px solid #ddd;
+
+    font-size:45px;
+    font-weight:bold;
+}
+
+.login-body{
+
+    padding:45px;
+}
+
+.login-body label{
+
+    display:block;
+
+    margin-bottom:10px;
+
+    font-size:28px;
+
+    font-weight:600;
+}
+
+.login-body input{
+
+    width:100%;
+
+    padding:18px;
+
+    border-radius:12px;
+
+    border:1px solid #ccc;
+
+    font-size:20px;
+
+    margin-bottom:30px;
+}
+
+.login-body a{
+
+    color:black;
+
+    text-decoration:none;
+}
+
+.login-btn{
+
+    width:100%;
+
+    padding:18px;
+
+    margin-top:40px;
+
+    border:none;
+
+    background:black;
+
+    color:white;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:26px;
+
+    transition:.3s;
+}
+
+.login-btn:hover{
+
+    background:#2d3436;
+}
+
+.register{
+
+    margin-top:35px;
+
+    text-align:center;
+
+    font-size:20px;
+}
+
+/* ===========================
+LAYOUT
+=========================== */
+
+.wrapper{
+
+    display:flex;
+
+    min-height:100vh;
+}
+
+.sidebar{
+
+    width:270px;
+
+    background:white;
+
+    border-right:1px solid #ddd;
+
+    padding:30px;
+}
+
+.logo{
+
+    width:170px;
+
+    height:130px;
+
+    background:#d9d9d9;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto;
+
+    margin-bottom:50px;
+
+    font-size:35px;
+}
+
+.sidebar ul{
+
+    list-style:none;
+}
+
+.sidebar ul li{
+
+    margin-bottom:28px;
+}
+
+.sidebar ul li a{
+
+    text-decoration:none;
+
+    color:black;
+
+    font-size:30px;
+
+    font-weight:600;
+}
+
+.sidebar ul li a:hover{
+
+    color:#0066ff;
+}
+
+.main{
+
+    flex:1;
+
+    padding:40px 60px;
+}
+
+.title{
+
+    text-align:center;
+
+    font-size:64px;
+
+    font-weight:800;
+
+    margin-bottom:50px;
+}
+
+/* ===========================
+CARD
+=========================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+}
+
+.card{
+
+    height:180px;
+
+    background:#d9d9d9;
+
+    border-radius:20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:28px;
+
+    font-weight:bold;
+}
+
+.chart{
+
+    margin-top:50px;
+
+    height:420px;
+
+    background:#d9d9d9;
+
+    border-radius:20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:40px;
+}
+
+/* ===========================
+SEARCH
+=========================== */
+
+.top-bar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:40px;
+}
+
+.search{
+
+    width:70%;
+
+    padding:18px;
+
+    border-radius:30px;
+
+    border:1px solid #bbb;
+
+    font-size:22px;
+}
+
+.add{
+
+    padding:18px 35px;
+
+    border:none;
+
+    background:black;
+
+    color:white;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    font-size:20px;
+}
+
+/* ===========================
+TABLE
+=========================== */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+}
+
+table th{
+
+    background:black;
+
+    color:white;
+
+    padding:16px;
+
+    font-size:20px;
+}
+
+table td{
+
+    padding:16px;
+
+    text-align:center;
+
+    border:1px solid #ddd;
+
+    font-size:18px;
+}
+
+/* ===========================
+FORM
+=========================== */
+
+.form-box{
+
+    width:900px;
+
+    margin:auto;
+
+    background:white;
+
+    border-radius:20px;
+
+    border:1px solid #ddd;
+
+    overflow:hidden;
+}
+
+.form-header{
+
+    padding:25px;
+
+    text-align:center;
+
+    font-size:38px;
+
+    font-weight:bold;
+
+    border-bottom:1px solid #ddd;
+}
+
+.form-body{
+
+    padding:40px;
+}
+
+.form-body label{
+
+    display:block;
+
+    margin-bottom:10px;
+
+    font-size:24px;
+
+    font-weight:600;
+}
+
+.form-body input,.form-body select{
+
+    width:100%;
+
+    padding:16px;
+
+    margin-bottom:25px;
+
+    border-radius:12px;
+
+    border:1px solid #bbb;
+
+    font-size:18px;
+}
+
+.save{
+
+    width:260px;
+
+    padding:18px;
+
+    display:block;
+
+    margin:auto;
+
+    background:black;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    font-size:24px;
+
+    cursor:pointer;
+}
+
+.logo-box div{
+
+    text-align:center;
+
+}
+
+.logo-box img{
+
+    width:170px;
+
+    height:170px;
+
+    object-fit:contain;
+
+    margin-bottom:20px;
+
+}
+
+.logo-box h3{
+
+    font-size:32px;
+
+    font-weight:500;
+
+}
+
+.login-box{
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.login-body input:focus{
+
+    outline:none;
+
+    border:2px solid #000;
+
+}
+
+.login-btn{
+
+    font-weight:600;
+}
+
+.login-btn:hover{
+
+    transform:translateY(-2px);
+
+}
+.sidebar i{
+
+    width:30px;
+
+}
+
+.card h2{
+
+    font-size:50px;
+
+    text-align:center;
+
+}
+
+.card p{
+
+    margin-top:10px;
+
+    font-size:22px;
+
+}
+
+.chart{
+
+    padding:40px;
+
+    text-align:center;
+
+    background:white;
+
+    border:1px solid #ddd;
+
+}
+
+.chart h2{
+
+    font-size:36px;
+
+}
+
+.chart p{
+
+    margin-top:15px;
+
+    font-size:20px;
+
+    line-height:1.7;
+
+}
+button{
+    padding:8px 15px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    margin:2px;
+}
+
+button:first-child{
+    background:#3498db;
+    color:white;
+}
+
+button:last-child{
+    background:#e74c3c;
+    color:white;
+}
+
+button:hover{
+    opacity:.85;
+}
+
+table{
+    border-radius:10px;
+    overflow:hidden;
+}
+
+table tr:nth-child(even){
+    background:#f8f8f8;
+}
+
+table tr:hover{
+    background:#ececec;
+}

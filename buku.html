@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Buku</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <aside class="sidebar">
+
+        <div class="logo">📚</div>
+
+        <ul>
+            <li><a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a></li>
+            <li><a href="buku.html"><i class="fa-solid fa-book"></i> Data Buku</a></li>
+            <li><a href="anggota.html"><i class="fa-solid fa-users"></i> Data Anggota</a></li>
+            <li><a href="peminjaman.html"><i class="fa-solid fa-book-open-reader"></i> Peminjaman</a></li>
+            <li><a href="pengembalian.html"><i class="fa-solid fa-rotate-left"></i> Pengembalian</a></li>
+            <li><a href="laporan.html"><i class="fa-solid fa-file-lines"></i> Laporan</a></li>
+            <li><a href="index.html"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+        </ul>
+
+    </aside>
+
+    <main class="main">
+
+        <h1 class="title">Data Buku</h1>
+
+        <div class="top-bar">
+
+            <input
+                type="text"
+                class="search"
+                placeholder="Cari Judul Buku...">
+
+            <button class="add">
+                + Tambah Buku
+            </button>
+
+        </div>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>ID</th>
+                    <th>Judul</th>
+                    <th>Penulis</th>
+                    <th>Penerbit</th>
+                    <th>Tahun</th>
+                    <th>Stok</th>
+                    <th>Aksi</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>B001</td>
+                    <td>Algoritma</td>
+                    <td>Rinaldi Munir</td>
+                    <td>Informatika</td>
+                    <td>2023</td>
+                    <td>8</td>
+
+                    <td>
+
+                        <button>Edit</button>
+
+                        <button>Hapus</button>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>B002</td>
+                    <td>Basis Data</td>
+                    <td>Abdul Kadir</td>
+                    <td>Andi</td>
+                    <td>2022</td>
+                    <td>5</td>
+
+                    <td>
+
+                        <button>Edit</button>
+
+                        <button>Hapus</button>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>B003</td>
+                    <td>Pemrograman Web</td>
+                    <td>Jubilee</td>
+                    <td>Elex Media</td>
+                    <td>2024</td>
+                    <td>12</td>
+
+                    <td>
+
+                        <button>Edit</button>
+
+                        <button>Hapus</button>
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </main>
+
+</div>
+
+</body>
+</html>
